@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link href="app.css" rel="stylesheet" type="text/css">
+
+		<script src="angular.js"></script>
+		<script src="routes.js"></script>
+		<script src="app.js"></script>
+
+		<title>Test</title>
+	</head>
+	<body>
+
+		<div class="grid-frame vertical">
+
+			<div class="shrink title-bar">
+				<div class="center title">Test</div>
+				<span class="left"><a ba-open="menuPanel"><span ba-open="menuPanel">Menu</span></a></span>
+			</div>
+
+			<div id="main-content" class="grid-block">
+				<div ng-class="['ui-view']" ui-view class="grid-block wrap main-content"></div>
+			</div>
+		</div>
+
+		<ba-panel id="menuPanel">
+			<a ba-close class="close-button">x</a>
+			<ul class="sideMenu">
+				<li><a ui-sref="home">Home</li>
+				<li><a ui-sref="about">About</a></li>
+			</ul>
+		</ba-panel>
+
+	</body>
+</html>

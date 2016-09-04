@@ -1,0 +1,6 @@
+{
+  "name": "test",
+  "dependencies": {
+    "angular-base-apps": "^2.0.0"
+  }
+}

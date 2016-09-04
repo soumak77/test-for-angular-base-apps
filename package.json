@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-beautify": "^2.0.0",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.3",
+    "gulp-uglify": "^1.2.0",
+    "rimraf": "^2.4.1",
+    "run-sequence": "^1.2.2",
+    "yargs": "^3.15.0"
+  },
+  "dependencies": {
+    "angular-dynamic-routing": "^1.1.1",
+    "base-apps-router": "^1.2.3"
+  }
+}
